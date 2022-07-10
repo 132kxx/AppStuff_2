@@ -12,11 +12,12 @@ struct StatePropertyTutorial: View {
     
     var body: some View {
         VStack {
-            HStack(spacing: 24) {
+            HStack(spacing: 4) {
                 Button {
                     count = count - 1
                 } label: {
                     Text("-")
+                        .offset(y: -2)
                         .font(.largeTitle)
                         .frame(width: 56, height: 56)
                         .background(Color.blue)
@@ -25,13 +26,17 @@ struct StatePropertyTutorial: View {
                         .shadow(radius: 10)
                 }
                 
-                Text("0")
+                
+                // string interpoloation for number data type to string data type
+                Text("\(count)")
                     .font(.largeTitle)
+                    .frame(width: 60)
                 
                 Button {
-                    count = count - 1
+                    count = count + 1
                 } label: {
                     Text("+")
+                        .offset(y: -2)
                         .font(.largeTitle)
                         .frame(width: 56, height: 56)
                         .background(Color.blue)
