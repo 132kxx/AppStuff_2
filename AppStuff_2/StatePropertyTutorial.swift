@@ -9,6 +9,10 @@ import SwiftUI
 
 struct StatePropertyTutorial: View {
     @State var count = 0
+    @State var likes = 0
+    @State var likesName = "heart"
+    @State var likeColor = Color.black
+
     
     var body: some View {
         VStack {
@@ -83,11 +87,13 @@ struct StatePropertyTutorial: View {
                 // action button
                 HStack(spacing: 16) {
                     Button {
-                       // Like post
+                       likes += 1
+                        likeColor = Color.red
+                        likesName = "heart.fill"
                     } label: {
-                        Image(systemName: "heart")
+                        Image(systemName: likesName)
                             .font(.system(size: 15, weight: .semibold))
-                            .foregroundColor(.black)
+                            .foregroundColor(likeColor)
                             .imageScale(.large)
                     }
                     
@@ -117,7 +123,7 @@ struct StatePropertyTutorial: View {
                 
                 // likes and Text
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("0 likes")
+                    Text("\(likes) likes")
                         .font(.system(size: 14, weight: .semibold))
                         .fontWeight(.semibold)
                     

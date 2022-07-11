@@ -13,6 +13,7 @@
 		B44B3DE728790E8100093323 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44B3DE628790E8100093323 /* Preview Assets.xcassets */; };
 		B44B3DEE287986A800093323 /* ButtonsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B3DED287986A800093323 /* ButtonsTutorial.swift */; };
 		B44B3DF02879B2C700093323 /* StatePropertyTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B3DEF2879B2C700093323 /* StatePropertyTutorial.swift */; };
+		B47F92BB287C65D60065170F /* ControlFlowTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F92BA287C65D60065170F /* ControlFlowTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B44B3DE628790E8100093323 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B44B3DED287986A800093323 /* ButtonsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTutorial.swift; sourceTree = "<group>"; };
 		B44B3DEF2879B2C700093323 /* StatePropertyTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyTutorial.swift; sourceTree = "<group>"; };
+		B47F92BA287C65D60065170F /* ControlFlowTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B44B3DE128790E7F00093323 /* ContentView.swift */,
 				B44B3DED287986A800093323 /* ButtonsTutorial.swift */,
 				B44B3DEF2879B2C700093323 /* StatePropertyTutorial.swift */,
+				B47F92BA287C65D60065170F /* ControlFlowTutorial.swift */,
 				B44B3DE328790E8100093323 /* Assets.xcassets */,
 				B44B3DE528790E8100093323 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44B3DF02879B2C700093323 /* StatePropertyTutorial.swift in Sources */,
+				B47F92BB287C65D60065170F /* ControlFlowTutorial.swift in Sources */,
 				B44B3DEE287986A800093323 /* ButtonsTutorial.swift in Sources */,
 				B44B3DE228790E7F00093323 /* ContentView.swift in Sources */,
 				B44B3DE028790E7F00093323 /* AppStuff_2App.swift in Sources */,
