@@ -14,6 +14,8 @@
 		B44B3DEE287986A800093323 /* ButtonsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B3DED287986A800093323 /* ButtonsTutorial.swift */; };
 		B44B3DF02879B2C700093323 /* StatePropertyTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B3DEF2879B2C700093323 /* StatePropertyTutorial.swift */; };
 		B47F92BB287C65D60065170F /* ControlFlowTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F92BA287C65D60065170F /* ControlFlowTutorial.swift */; };
+		B4E9FEB6287DA9EA00CF8057 /* loopsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FEB5287DA9EA00CF8057 /* loopsTutorial.swift */; };
+		B4E9FEB9287DAC1500CF8057 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FEB8287DAC1500CF8057 /* UserRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B44B3DED287986A800093323 /* ButtonsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTutorial.swift; sourceTree = "<group>"; };
 		B44B3DEF2879B2C700093323 /* StatePropertyTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyTutorial.swift; sourceTree = "<group>"; };
 		B47F92BA287C65D60065170F /* ControlFlowTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowTutorial.swift; sourceTree = "<group>"; };
+		B4E9FEB5287DA9EA00CF8057 /* loopsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopsTutorial.swift; sourceTree = "<group>"; };
+		B4E9FEB8287DAC1500CF8057 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				B44B3DED287986A800093323 /* ButtonsTutorial.swift */,
 				B44B3DEF2879B2C700093323 /* StatePropertyTutorial.swift */,
 				B47F92BA287C65D60065170F /* ControlFlowTutorial.swift */,
+				B4E9FEB7287DABF800CF8057 /* Loops */,
 				B44B3DE328790E8100093323 /* Assets.xcassets */,
 				B44B3DE528790E8100093323 /* Preview Content */,
 			);
@@ -74,6 +79,15 @@
 				B44B3DE628790E8100093323 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4E9FEB7287DABF800CF8057 /* Loops */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9FEB5287DA9EA00CF8057 /* loopsTutorial.swift */,
+				B4E9FEB8287DAC1500CF8057 /* UserRowView.swift */,
+			);
+			path = Loops;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E9FEB9287DAC1500CF8057 /* UserRowView.swift in Sources */,
 				B44B3DF02879B2C700093323 /* StatePropertyTutorial.swift in Sources */,
 				B47F92BB287C65D60065170F /* ControlFlowTutorial.swift in Sources */,
 				B44B3DEE287986A800093323 /* ButtonsTutorial.swift in Sources */,
+				B4E9FEB6287DA9EA00CF8057 /* loopsTutorial.swift in Sources */,
 				B44B3DE228790E7F00093323 /* ContentView.swift in Sources */,
 				B44B3DE028790E7F00093323 /* AppStuff_2App.swift in Sources */,
 			);
