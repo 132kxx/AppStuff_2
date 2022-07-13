@@ -9,15 +9,17 @@ import SwiftUI
 
 struct loopTutorial: View {
     
-    let drivers = ["누누",
-                   "가렌",
-                   "룰루",
-                   "니달리"]
+    let drivers = [
+    Driver(name: "누누", imageName: "person"),
+    Driver(name: "가렌", imageName: "person"),
+    Driver(name: "니달리", imageName: "person")
+    ]
+    
     
     var body: some View {
         VStack {
-            ForEach(drivers, id: \.self) { driver in
-                UserRowView(driveName: driver)
+            ForEach(drivers) { top in
+                UserRowView(driver: top)
             }
         }
     }

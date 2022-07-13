@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UserRowView: View {
-    let driveName: String
+    let driver: Driver
     var body: some View {
         HStack {
             Image(systemName: "person")
@@ -17,7 +17,7 @@ struct UserRowView: View {
                 .frame(width: 56, height: 56)
                 .clipShape(Circle())
             
-            Text(driveName)
+            Text(driver.name)
                 .font(.subheadline)
             
             Spacer()
@@ -33,6 +33,6 @@ struct UserRowView: View {
 
 struct UserRowView_Previews: PreviewProvider {
     static var previews: some View {
-        UserRowView(driveName: "누누")
+        UserRowView(driver: Driver(name: "누누", imageName: "person"))
     }
 }
